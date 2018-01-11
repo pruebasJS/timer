@@ -1,0 +1,47 @@
+.azul = accedes a una class para acceder en general
+#azul = accedes a un id para accede solo a uno
+div = accedes aun propiedad
+selectores
+h1,h2,h3 {} //pra varios 
+font-zise :tamaño de la fuente ;
+p a {color :30px;} //solo a las referencia de los parrafos aumentarle el color , es para llegar aun exactamente
+a["..."]{
+color-font:30px;
+}
+12px 
+1em representa el equivalente al padre
+1rem representa el equivalente al abuelo
+width =ancho
+margin = margen exteriior
+padding = margen interior 
+display // para colocarlo donde quieres inline-block inline 
+heigth=largo
+
+almohadillas & rgb(,,)
+para fondos 
+background:url(royal.jpg)
+background-attachemn : fixed & scroll
+
+>>posicionanmiento de cajas
+
+relative, abosulte ,fixed, float(para poner izq o der)
+luego de usar el float {
+clear:both;}
+
+texto
+line-height : entre lineados 
+text-transform:capitalize // mayuscula todo el text
+word-spacing:// espacio entre palabras
+text-shadow// izq arriba tamaño color
+>>estados
+a:link
+a_hover {//cursor}
+a:active {} /cuando das un click
+a:visited{}//enlaces que hemos vistado
+para que una img abarque el 100 % del contenedor elwidth =100%
+border radius
+border-radius:10px;
+	box-shadow:5px 5px 0px #424242;
+>>listas
+
+overflow:hidden;

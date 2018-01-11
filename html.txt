@@ -1,0 +1,13 @@
+hr/> //es para hacer una linea 
+a target="_blank
+listas 
+ol ordenadas
+>li
+ul //desordenadas
+>li
+
+tabla ><
+tr> //fila
+	<td> //columna
+
+<form></form> /formulario  action="" V

@@ -1,0 +1,87 @@
+JAVASCRIPT //falconmaster
+usando vs code
+
+alert(""); // mensaje flotante.
+funciones para mostrar datos 
+prompt("text",input); //input
+document.write("txt"); //escribe en la hoja 
+console.log("txt");
+* para declar variables de tipo int , string , array es con 
+var nombre= dato;
+int 
+string 
+array
+== // IGUAL QUE TEXTO 
+=== // PARA COMPROBAR EL VLOR Y TIPO 
+objeto 
+booleano 
+undefinido 
+null
+naN
+cap5;
+
+
+->arreglos 
+var nomb = [...];
+document.write(nomb.length
+nombre.pop() //ELIMINA EL ULTIMMO
+NOMBRE.PUSH //AGREGAR UN ARREGLO
+DOCUMENT.WRITE(AMIGOS.JOIN(":")); // ENTRE CADA ARRAY PODRA UN :
+AMIGOS.SORT() /ORDENA ALFABETICAMENTE O EN NUMERACION 
+<br> //salto de linea
+funciontes xd(){} xd();
+
+accesibilida de variables // scope 
+
+global // pueden ser accedidas desde toda el programa
+local // pueden ser accedidas desde una funcion : se ante pone "var" para ser varible local , sino tiene es global
+text.lengt //cuenta la cadena,
+text.substring() corta las letras
+text.subtr(0,5) corta cadena expesifica
+textindexof("a") v ("a" ,5);//posicion de letras// busca por posicion
+text.replace ("text", "mauricio"),
+toUpperCase  // toLowerCase
+>>>DOM
+var elemetop =document.getelementsbytagname("p");
+	""	=document.getelementsbyID("segundo");
+
+
+//CREANDO DOM
+var element =document.createElemt("h2");
+create nodo de text
+var contenido=document.createTextNode("este es nuestro titular");
+añadir el nodo de text al elemento 
+elemento.appendchild(contenido);
+agregar atritubtos 
+element.setAttribute("align","center");
+
+agregar el elemento al documetn
+documento.Getelementid.appendChild(element);
+padre = document.getElementById // trae el elemento pardre id v document.getElementsByTagsName("li")[].parentNode
+hijo=document.getElementsByTagsName("li")[] // trae todo los elementos de padre en un arreglo
+
+padre.insertBefore(elemento,hijo);
+padre.appendChild(elemento); // agregar dentro del idpadre
+textcontent != innertHtml 
+replacechild(elemto , referencia)
+
+
+var we = document.getElementsByTagName("div")[2]
+we.setAttribute("class","azul");
+
+
+para aumentar una imagen 
+
+function(){
+e.preventDefault(); // es como un break 
+}
+>>timer , timeout e interval  
+
+(function(){}()) encapsulamiento
+
+var salida= function(){
+console.log() V document.write() v alert();
+}
+
+setTimeout(saludo,tiempo en milisengundos);
+

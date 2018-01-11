@@ -1,0 +1,65 @@
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body{
+	
+	background:url(royal1.jpg) #5F04B4;
+	background-size:cover;
+	color:#fff;
+	font-size:16px;
+}
+
+.wrap {
+	
+	position: absolute;
+    top: 15%;
+    left: 35%;
+   
+   
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+}
+.widget{
+	width:50%;
+	margin:2em;
+}
+.widget p {
+	display:inline-block;
+	line-height:1em;
+	
+}
+.fecha{
+	border-radius:6px;
+	font-family:Arial;
+	text-align:center;
+	font-size:1.5em;
+	margin-bottom:0.3125rem;
+	background:rgba(0,0,0,.5);
+	padding:20px;
+	width:100%
+}
+ .reloj {
+	border-radius:6px;
+	font-family:Arial;
+	width:100%;
+	padding:20px;
+	font-size:4em;
+	text-align: center;
+	background:rgba(0,0,0,.5);
+} 
+
+.reloj .caja-segundos { 
+	display:inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm{
+	font-size:30px;
+	display:block;
+}
+ 
